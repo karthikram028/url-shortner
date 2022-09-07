@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.listen(4000, () => {
-    console.log(`Application listening at http://localhost:${port}`);
+    console.log(`Application live and listening!`);
     db();
     routes(app)
 });
